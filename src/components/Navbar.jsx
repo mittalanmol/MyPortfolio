@@ -18,7 +18,7 @@ function Navbar() {
               <a href='#about'>About</a>
             </li>
             <li data-aos='fade-down' data-aos-delay='400'>
-              <a href='#experience'>Experience</a>
+              <a href='#skills'>Skills</a>
             </li>
             <li data-aos='fade-down' data-aos-delay='600'>
               <a href='#projects'>Projects</a>
