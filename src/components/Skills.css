@@ -1,0 +1,26 @@
+#skills {
+  background-color: white;
+  margin: 0;
+  position: relative; /* Enable absolute positioning for children */
+  padding: 40px; /* Ensure there's enough padding */
+}
+
+.h-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 2rem; */
+}
+
+.h-holder .line1 {
+  width: 5rem;
+  height: 2px;
+  margin-right: 10px;
+  background-color: black;
+}
+.h-holder .line2 {
+  width: 5rem;
+  height: 2px;
+  margin-left: 10px;
+  background-color: black;
+}

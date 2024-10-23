@@ -1,0 +1,61 @@
+#about {
+  background-color: white;
+  margin: 0;
+  position: relative; /* Enable absolute positioning for children */
+  padding: 40px; /* Ensure there's enough padding */
+}
+
+.section-container {
+  display: flex;
+  gap: 4rem;
+  height: 80%;
+  margin-top: 50px;
+}
+
+.section__picContainer {
+  height: 400px;
+  width: 400px;
+  margin-left: 200px;
+  /* margin: auto; */
+}
+.text-container {
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 4rem;
+  text-align: left;
+}
+
+.aboutP {
+  margin-top: 1rem;
+  text-align: justify;
+  max-width: max-content;
+}
+
+.socials {
+  display: flex;
+  justify-content: left;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.icons {
+  cursor: pointer;
+  width: 40px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
+  object-fit: contain; /* Ensures the image scales properly inside the box */
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  height: 2.5rem;
+  right: 5rem;
+  bottom: 2.5rem;
+
+  /* position: absolute;
+  height: 2.5rem;
+  right: 2rem;
+  bottom: 4rem; */
+  max-width: 100%;
+  overflow: hidden;
+}
