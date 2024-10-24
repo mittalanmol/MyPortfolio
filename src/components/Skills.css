@@ -24,3 +24,74 @@
   margin-left: 10px;
   background-color: black;
 }
+
+.skills-containers {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+
+  /* justify-content: center;
+  flex-direction: column; */
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.skills-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  /* justify-content: space-around; */
+  justify-content: start; /* Align items to the start */
+  text-align: start;
+  gap: 0.5rem;
+  align-items: start; /*Vertically center the items */
+}
+
+article .icon {
+  cursor: default;
+}
+
+article div {
+  flex-grow: 1; /* Allow the div containing the text to take up the remaining space */
+}
+
+article h3 {
+  font-weight: 600; /* Change the font-weight to normal */
+}
+
+.arrowskills {
+  cursor: pointer;
+  position: absolute;
+  height: 2.5rem;
+  right: 5rem;
+  bottom: 2.5rem;
+  /* max-width: 100%;
+  overflow: hidden; */
+  z-index: 6;
+}
